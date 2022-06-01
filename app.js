@@ -5,7 +5,8 @@ const animalSection = document.getElementById('animal-section');
 
 const nameInput = document.getElementById('name-input');
 const nameDisplay = document.getElementById('name-display');
-
+const imageSelect = document.getElementById('image-select');
+const imageDisplay = document.getElementById('image-display');
 
 
 
@@ -21,11 +22,11 @@ showAnswerButton.addEventListener('click', () => {
 
 nameInput.addEventListener('input', () => {
     nameDisplay.textContent = nameInput.value;
-    console.log(nameDisplay.textContent)
-
 });
 
-
+imageSelect.addEventListener('change', () => {
+    imageDisplay.src = imageSelect.value;
+});
 
 
 
