@@ -1,4 +1,17 @@
 // grab DOM elements
+const toscheckbox = document.getElementById('tos-checkbox');
+console.log(toscheckbox)
+
+
+
+
+
+
+
+
+
+
+
 
 // set event listeners
     // get info from user input
