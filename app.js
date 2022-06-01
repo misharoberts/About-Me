@@ -3,6 +3,25 @@ const toscheckbox = document.getElementById('tos-checkbox');
 console.log(toscheckbox)
 
 
+const showAnswerButton = document.getElementById('show-answer-button');
+console.log(showAnswerButton)
+
+const animalSection = document.getElementById('animal-section');
+console.log(animalSection)
+
+toscheckbox.addEventListener('change', () => {
+    showAnswerButton.disabled = !toscheckbox.checked;
+    console.log(toscheckbox.checked)
+
+});
+
+showAnswerButton.addEventListener('click', () => {
+    animalSection.classList.remove('hidden');
+    console.log(animalSection.classList)
+
+});
+
+
 
 
 
