@@ -1,27 +1,29 @@
 // grab DOM elements
 const toscheckbox = document.getElementById('tos-checkbox');
-console.log(toscheckbox)
-
-
 const showAnswerButton = document.getElementById('show-answer-button');
-console.log(showAnswerButton)
-
 const animalSection = document.getElementById('animal-section');
-console.log(animalSection)
+
+const nameInput = document.getElementById('name-input');
+const nameDisplay = document.getElementById('name-display');
+
+
+
+
+
 
 toscheckbox.addEventListener('change', () => {
     showAnswerButton.disabled = !toscheckbox.checked;
-    console.log(toscheckbox.checked)
-
 });
 
 showAnswerButton.addEventListener('click', () => {
     animalSection.classList.remove('hidden');
-    console.log(animalSection.classList)
-
 });
 
+nameInput.addEventListener('input', () => {
+    nameDisplay.textContent = nameInput.value;
+    console.log(nameDisplay.textContent)
 
+});
 
 
 
