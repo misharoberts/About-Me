@@ -49,11 +49,11 @@ section {
     width: 200px;
     padding: 5px;
     text-align: center;
-    background: steelblue;
-    color: white;
+    background: rgb(124, 180, 4);
+    color: rgb(3, 3, 3);
     font-weight: 800;
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 20px;
 }
 
 #image-display {
