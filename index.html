@@ -12,10 +12,58 @@
 <body>
     <header>
         <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        <h1>About Me</h1>
     </header>
 
     <main>
+        <section id="intro-section">
+            <h2>Intro</h2>
+            <p>
+                These cute looking marsupials, that climb trees 
+                with babies on their backs, have fingerprints
+                that are almost identical to human ones.
+            </p>
+            <p>
+                <label>
+                    <input id="tos-checkbox" type="checkbox">
+                    I accept the terms of service and pledge
+                    to donate all my free time and energy to
+                    the worship of this cute Koala.
+                </label>
+            </p>
+            <p>What is my favorite animal?</p>
+            <p>
+                <button id="show-answer-button" disabled>Show Answer</button>
+            </p>
+        </section>
+
+        <section id="animal-section" class="hidden">
+            <h2>Koala!!!</h2>
+
+            <div id="cat-container">
+                <p>
+                    <img id="image-display" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg">
+                </p>
+                <p id="name-display">Jones</p>
+            </div>
+
+            <h2>Design this Koala</h2>
+            <p>
+                <label>
+                    Select an image type:
+                    <select id="image-select">
+                        <option value="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg" selected>Brown/White</option>
+                        <option value="https://images.unsplash.com/photo-1579972383667-4894c883d674?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29hbGElMjBzbGVlcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80">Sleepy</option>
+                        <option value="https://cdn.cnn.com/cnnnext/dam/assets/200423091813-anwen-koala-australia-full-169.jpg">Loves Pink</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Name: <input id="name-input" value="Jones">
+                </label>
+            </p>
+        </section>
 
     </main>
 

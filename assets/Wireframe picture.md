@@ -1,10 +1,14 @@
 
-//intro with description of animal
-//Checkbox confirming your service of free time towards animal
-//Answer of favorite animal "koala
-//3 pictures to choose from for the design
-//Name input allowing to name koala
-![Wireframephoto](./assets/About-me-wireframe.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
