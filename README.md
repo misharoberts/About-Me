@@ -4,7 +4,7 @@
 //Answer of favorite animal "koala
 //3 pictures to choose from for the design
 //Name input allowing to name koala
-![Wireframephoto](Michael Roberts/dev/About-Me/assets)
+![Wireframephoto](./assets/About-me-wireframe.png)
 
 
 
